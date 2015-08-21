@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+}
+
+h1.resume {
+  color: #66A2D4;
+  font-size: 6em;
+}
+
+h1.code {
+  color: #00456F;
+  font-size: 8em;
+  padding: 4vh;
+}
+
+h1.design {
+  color: #E23234;
+  font-size: 6em;
+}
+
+.middle {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.resumepdf {
+  min-width: 100vw;
+  min-height: 100vh;
+}
