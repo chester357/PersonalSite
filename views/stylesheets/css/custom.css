@@ -1,0 +1,27 @@
+body {
+  background-color: #476CDA;
+}
+
+h1.code {
+  color: white;
+  font-size: 8em;
+  padding: 4vh;
+}
+
+h1.txt {
+  color: white;
+  font-size: 6em;
+}
+
+.middle {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.resumepdf {
+  min-width: 100vw;
+  min-height: 100vh;
+}
