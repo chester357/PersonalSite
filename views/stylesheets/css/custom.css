@@ -60,6 +60,11 @@ h1.projectName {
   color: #66A2D4;
 }
 
+h1.gitRepo {
+  color: gray;
+  font-size: .8em;
+}
+
 ul.projectDescription {
   padding-left: 9vw;
   font-size: 1.5em;
