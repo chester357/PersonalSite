@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 h1.resume {
   color: #66A2D4;
   font-size: 6em;
@@ -53,14 +57,19 @@ h1.projectName {
   padding-left: 3vw;
   padding-top: 3vh;
   font-size: 3em;
-  color: #00456F;
+  color: #66A2D4;
 }
 
 ul.projectDescription {
   padding-left: 9vw;
   font-size: 1.5em;
-  color: white;
+  color: #00456F;
   margin-right: 12vw;
+}
+
+h1.projectDescription {
+  color: #cccccc;
+  font-size: .8em;
 }
 
 .middle {
