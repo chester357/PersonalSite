@@ -18,6 +18,32 @@ h1.design {
   font-size: 6em;
 }
 
+h1.inTheLoop {
+  font-size: 4em;
+  color: #357ddb;
+}
+
+h1.weatherTodo {
+  font-size: 4em;
+  color: #ff9a0d;
+}
+
+h1.vocales {
+  font-size: 4em;
+  color: #a70fff;
+}
+
+h1.allApps {
+  font-size: 4em;
+  color: #cccccc;
+}
+
+h1.appTitle {
+  font-size: 4em;
+  color: #cccccc;
+  text-align: center;
+}
+
 .middle {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -29,4 +55,12 @@ h1.design {
 .resumepdf {
   min-width: 100vw;
   min-height: 100vh;
+}
+
+.phoneImage {
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  /*width: 500vw;
+  height: 70vh;*/
 }
