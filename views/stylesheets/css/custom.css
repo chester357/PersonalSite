@@ -44,6 +44,25 @@ h1.appTitle {
   text-align: center;
 }
 
+h1.projectTitle {
+  font-size: 3em;
+  color: #E23234;
+}
+
+h1.projectName {
+  padding-left: 3vw;
+  padding-top: 3vh;
+  font-size: 3em;
+  color: #00456F;
+}
+
+ul.projectDescription {
+  padding-left: 9vw;
+  font-size: 1.5em;
+  color: white;
+  margin-right: 12vw;
+}
+
 .middle {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
