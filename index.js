@@ -8,6 +8,6 @@ app.get('/', function(req, res){
 	res.sendFile('index.html');
 });
 
-app.listen(3000, function(){
-	console.log("Slangin on localhost:3000");
+app.listen(app.get('port') function(){
+	console.log("Slangin on", app.get('port'));
 });
